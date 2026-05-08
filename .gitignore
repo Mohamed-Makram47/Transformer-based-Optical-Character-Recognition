@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.conda/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model checkpoints (large files)
+pretrained/*.pt
+pretrained/*.bin
+results/**/checkpoint*.pt
+
+# Datasets (large files)
+data/IAM/**/*.png
+data/IAM/**/*.jpg
+data/IAM/**/*.tar.gz
+data/SROIE/**/*.jpg
+data/SROIE/**/*.tar.gz
+data/STR_Benchmarks/**/*.png
+data/STR_Benchmarks/**/*.jpg
+data/STR_Benchmarks/**/*.zip
+
+# TensorBoard logs
+logs/**/events.out.tfevents.*
+
+# Temporary files
+*.tmp
+*.bak
