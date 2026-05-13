@@ -13,6 +13,7 @@ venv/
 env/
 .conda/
 
+
 # Jupyter Notebooks
 .ipynb_checkpoints/
 
@@ -26,20 +27,26 @@ env/
 .DS_Store
 Thumbs.db
 
-# Model checkpoints (large files)
-pretrained/*.pt
-pretrained/*.bin
-results/**/checkpoint*.pt
+# Model checkpoints & weights (large files)
+pretrained/
+outputs/
+ArabicTrOCR/outputs/
+*.pt
+*.pth
+*.bin
+*.safetensors
+results/
 
-# Datasets (large files)
-data/IAM/**/*.png
-data/IAM/**/*.jpg
-data/IAM/**/*.tar.gz
-data/SROIE/**/*.jpg
-data/SROIE/**/*.tar.gz
-data/STR_Benchmarks/**/*.png
-data/STR_Benchmarks/**/*.jpg
-data/STR_Benchmarks/**/*.zip
+# Datasets (large files, raw & processed)
+data/
+ArabicTrOCR/data/
+*.png
+*.jpg
+*.jpeg
+*.tar.gz
+*.zip
+*.npy
+*.npz
 
 # TensorBoard logs
 logs/**/events.out.tfevents.*
@@ -47,3 +54,4 @@ logs/**/events.out.tfevents.*
 # Temporary files
 *.tmp
 *.bak
+
