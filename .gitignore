@@ -30,6 +30,7 @@ Thumbs.db
 # Model checkpoints & weights (large files)
 pretrained/
 outputs/
+ArabicTrOCR/wandb/
 ArabicTrOCR/outputs/
 *.pt
 *.pth
