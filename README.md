@@ -6,11 +6,9 @@ This repository hosts the training and evaluation framework for an Arabic Optica
 
 # Project Resources
 
-* **Project Report:**
-  https://arabic-handwritten-textrecognition.netlify.app/
 
 * **Project Poster:**
-  https://poster-arabic-handwritten.netlify.app/
+   https://arabic-handwritten-textrecognition.netlify.app/
 
 ---
 
